@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #4E6151;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #E9F1E3; /* Verde pastel claro */
+}
+
+header {
+    background-color: #FBDFDB; /* Rosa claro */
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 30%;
+}
+
+.links ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.links ul li {
+    margin-right: 20px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #4E6151;
+    font-size: 18px;
+}
+
+.links ul li a:hover {
+    font-weight: bold;
+    color: #d87c72; /* Rosa escuro */
+}
+
+.maincontainer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.receita {
+    background-color: #E9F1E3; 
+    padding: 20px;
+    border: 1px solid #FBDFDB; /* Borda rosa */
+}
+
+.receita h2 {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 20px;
+}
+
+.receita img {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 0.5px solid #fb05e3;
+}
+
+.receita p {
+    margin-bottom: 20px;
+}
+
+.receita h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.receita ul,
+.receita ol {
+    margin-bottom: 20px;
+}
+
+.receita ul li,
+.receita ol li {
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 16px;
+    margin-top: auto;
+    border: 1px solid #eee; /* Cinza claro */
+    background-color: rgba(238, 238, 238, 0.705);
+    text-align: center;
+    opacity: 0.8;
+}
